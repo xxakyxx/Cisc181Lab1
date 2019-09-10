@@ -57,6 +57,8 @@ public class Deck {
 					
 				}
 			}
+			
+			Collections.shuffle(this.cardsInDeck);
 		}
 	}
 	
